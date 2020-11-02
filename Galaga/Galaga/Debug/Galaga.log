@@ -1,0 +1,143 @@
+﻿Galaga.obj : error LNK2019: símbolo externo não resolvido, __imp__GetModuleHandleA@4, referenciado na função "public: void __thiscall Window::Cursor(unsigned int)" (?Cursor@Window@@QAEXI@Z)
+Window.obj : error LNK2001: símbolo externo não resolvido __imp__GetModuleHandleA@4
+Galaga.obj : error LNK2019: símbolo externo não resolvido, __imp__LoadCursorA@8, referenciado na função "public: void __thiscall Window::Cursor(unsigned int)" (?Cursor@Window@@QAEXI@Z)
+Window.obj : error LNK2001: símbolo externo não resolvido __imp__LoadCursorA@8
+Galaga.obj : error LNK2019: símbolo externo não resolvido, __imp__LoadIconA@8, referenciado na função "public: void __thiscall Window::Icon(unsigned int)" (?Icon@Window@@QAEXI@Z)
+Window.obj : error LNK2001: símbolo externo não resolvido __imp__LoadIconA@8
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__Sleep@4, referenciado na função "private: int __thiscall Engine::Run(void)" (?Run@Engine@@AAEHXZ)
+Level1.obj : error LNK2001: símbolo externo não resolvido __imp__Sleep@4
+Level2.obj : error LNK2001: símbolo externo não resolvido __imp__Sleep@4
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__TranslateMessage@4, referenciado na função "private: int __thiscall Engine::Run(void)" (?Run@Engine@@AAEHXZ)
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__DispatchMessageA@4, referenciado na função "private: int __thiscall Engine::Run(void)" (?Run@Engine@@AAEHXZ)
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__PeekMessageA@20, referenciado na função "private: int __thiscall Engine::Run(void)" (?Run@Engine@@AAEHXZ)
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__SetWindowTextA@8, referenciado na função "private: float __thiscall Engine::FrameTime(void)" (?FrameTime@Engine@@AAEMXZ)
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__timeBeginPeriod@4, referenciado na função "public: int __thiscall Engine::Start(class Game *)" (?Start@Engine@@QAEHPAVGame@@@Z)
+Engine.obj : error LNK2019: símbolo externo não resolvido, __imp__timeEndPeriod@4, referenciado na função "public: int __thiscall Engine::Start(class Game *)" (?Start@Engine@@QAEHPAVGame@@@Z)
+Graphics.obj : error LNK2019: símbolo externo não resolvido, __imp__GetSystemMetrics@4, referenciado na função "public: bool __thiscall Graphics::Initialize(class Window *)" (?Initialize@Graphics@@QAE_NPAVWindow@@@Z)
+Window.obj : error LNK2001: símbolo externo não resolvido __imp__GetSystemMetrics@4
+Graphics.obj : error LNK2019: símbolo externo não resolvido, _D3D11CreateDevice@40, referenciado na função "public: __thiscall Graphics::Graphics(void)" (??0Graphics@@QAE@XZ)
+Home.obj : error LNK2019: símbolo externo não resolvido, __imp__PostMessageA@16, referenciado na função "public: void __thiscall Window::Close(void)" (?Close@Window@@QAEXXZ)
+Renderer.obj : error LNK2019: símbolo externo não resolvido, _D3DReadFileToBlob@8, referenciado na função "public: bool __thiscall Renderer::Initialize(class Window *,class Graphics *)" (?Initialize@Renderer@@QAE_NPAVWindow@@PAVGraphics@@@Z)
+Texture.obj : error LNK2019: símbolo externo não resolvido, __imp__MultiByteToWideChar@24, referenciado na função "long __cdecl D3D11CreateTextureFromFile(struct ID3D11Device *,struct ID3D11DeviceContext *,char const *,struct ID3D11Resource * *,struct ID3D11ShaderResourceView * *,unsigned int &,unsigned int &,unsigned int)" (?D3D11CreateTextureFromFile@@YAJPAUID3D11Device@@PAUID3D11DeviceContext@@PBDPAPAUID3D11Resource@@PAPAUID3D11ShaderResourceView@@AAI5I@Z)
+MSVCRTD.lib(error.obj) : error LNK2001: símbolo externo não resolvido __imp__MultiByteToWideChar@24
+Texture.obj : error LNK2019: símbolo externo não resolvido, __imp__CoCreateInstance@20, referenciado na função "struct IWICImagingFactory * __cdecl _GetWIC(void)" (?_GetWIC@@YAPAUIWICImagingFactory@@XZ)
+Texture.obj : error LNK2001: símbolo externo não resolvido _CLSID_WICImagingFactory2
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat1bppIndexed
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat2bppIndexed
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat4bppIndexed
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat8bppIndexed
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormatBlackWhite
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat2bppGray
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat4bppGray
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat8bppGray
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat8bppAlpha
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppBGR555
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppBGR565
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppBGRA5551
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppGray
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat24bppBGR
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat24bppRGB
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppBGR
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppBGRA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppPBGRA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppGrayFloat
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppRGB
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppRGBA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppPRGBA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat48bppRGB
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat48bppBGR
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGB
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGBA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppBGRA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppPRGBA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppPBGRA
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppGrayFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppBGR101010
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat48bppRGBFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat48bppBGRFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat96bppRGBFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat96bppRGBFloat
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat128bppRGBAFloat
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat128bppPRGBAFloat
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat128bppRGBFloat
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppCMYK
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGBAFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppBGRAFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGBFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat128bppRGBAFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat128bppRGBFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGBAHalf
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppPRGBAHalf
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppRGBHalf
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat48bppRGBHalf
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppRGBE
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat16bppGrayHalf
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppGrayFixedPoint
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppRGBA1010102
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat32bppRGBA1010102XR
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat64bppCMYK
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat40bppCMYKAlpha
+Texture.obj : error LNK2001: símbolo externo não resolvido _GUID_WICPixelFormat80bppCMYKAlpha
+Texture.obj : error LNK2001: símbolo externo não resolvido _WKPDID_D3DDebugObjectName
+Timer.obj : error LNK2019: símbolo externo não resolvido, __imp__QueryPerformanceCounter@4, referenciado na função "public: float __thiscall Timer::Elapsed(void)" (?Elapsed@Timer@@QAEMXZ)
+MSVCRTD.lib(gs_support.obj) : error LNK2001: símbolo externo não resolvido __imp__QueryPerformanceCounter@4
+Timer.obj : error LNK2019: símbolo externo não resolvido, __imp__QueryPerformanceFrequency@4, referenciado na função "public: __thiscall Timer::Timer(void)" (??0Timer@@QAE@XZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__CreateSolidBrush@4, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__SetBkMode@8, referenciado na função "public: void __thiscall Window::Print(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned long)" (?Print@Window@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHK@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__SetTextColor@8, referenciado na função "public: void __thiscall Window::Print(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned long)" (?Print@Window@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHK@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__TextOutA@20, referenciado na função "public: void __thiscall Window::Print(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned long)" (?Print@Window@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHK@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__DefWindowProcA@16, referenciado na função "public: static long __stdcall Window::WinProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WinProc@Window@@SGJPAUHWND__@@IIJ@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__PostQuitMessage@4, referenciado na função "public: static long __stdcall Window::WinProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WinProc@Window@@SGJPAUHWND__@@IIJ@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__RegisterClassExA@4, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__CreateWindowExA@48, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__MoveWindow@24, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__GetMenu@4, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__GetDC@4, referenciado na função "public: void __thiscall Window::Print(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned long)" (?Print@Window@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHK@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__ReleaseDC@8, referenciado na função "public: void __thiscall Window::Print(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned long)" (?Print@Window@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHK@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__AdjustWindowRectEx@16, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp__GetWindowLongA@8, referenciado na função "public: bool __thiscall Window::Initialize(void)" (?Initialize@Window@@QAE_NXZ)
+MSVCRTD.lib(debugger_jmc.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetCurrentThreadId@0, referenciado na função @__CheckForDebuggerJustMyCode@4
+MSVCRTD.lib(gs_support.obj) : error LNK2001: símbolo externo não resolvido __imp__GetCurrentThreadId@0
+MSVCRTD.lib(gs_report.obj) : error LNK2019: símbolo externo não resolvido, __imp__UnhandledExceptionFilter@4, referenciado na função ___raise_securityfailure
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: símbolo externo não resolvido __imp__UnhandledExceptionFilter@4
+MSVCRTD.lib(gs_report.obj) : error LNK2019: símbolo externo não resolvido, __imp__SetUnhandledExceptionFilter@4, referenciado na função ___raise_securityfailure
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: símbolo externo não resolvido __imp__SetUnhandledExceptionFilter@4
+MSVCRTD.lib(gs_report.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetCurrentProcess@0, referenciado na função ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: símbolo externo não resolvido, __imp__TerminateProcess@8, referenciado na função ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: símbolo externo não resolvido, _IsProcessorFeaturePresent@4, referenciado na função ___report_gsfailure
+MSVCRTD.lib(cpu_disp.obj) : error LNK2001: símbolo externo não resolvido _IsProcessorFeaturePresent@4
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: símbolo externo não resolvido _IsProcessorFeaturePresent@4
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo não resolvido, __imp__IsDebuggerPresent@0, referenciado na função "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z)
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: símbolo externo não resolvido __imp__IsDebuggerPresent@0
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo não resolvido, __imp__RaiseException@16, referenciado na função "void __cdecl notify_debugger(struct tagEXCEPTION_VISUALCPP_DEBUG_INFO const &)" (?notify_debugger@@YAXABUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: símbolo externo não resolvido, __imp__WideCharToMultiByte@32, referenciado na função "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z)
+MSVCRTD.lib(gs_support.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetCurrentProcessId@0, referenciado na função ___get_entropy
+MSVCRTD.lib(gs_support.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetSystemTimeAsFileTime@4, referenciado na função ___get_entropy
+MSVCRTD.lib(tncleanup.obj) : error LNK2019: símbolo externo não resolvido, __imp__InitializeSListHead@4, referenciado na função "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetStartupInfoW@4, referenciado na função ___scrt_get_show_window_mode
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetModuleHandleW@4, referenciado na função ___scrt_is_managed_app
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetLastError@0, referenciado na função "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__HeapAlloc@12, referenciado na função "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__HeapFree@12, referenciado na função "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetProcessHeap@0, referenciado na função "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__VirtualQuery@12, referenciado na função "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__FreeLibrary@4, referenciado na função "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: símbolo externo não resolvido, __imp__GetProcAddress@8, referenciado na função "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ)
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\dxgi.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\d3d11.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winmm.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\d3dcompiler.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\dxguid.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\comdlg32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbc32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbccp32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+D:\Projetos\jogo-galaga\Galaga\Debug\Galaga.exe : fatal error LNK1120: 111 externo não resolvidos

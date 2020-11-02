@@ -1,0 +1,3 @@
+﻿D:\Projetos\jogo-galaga\Galaga\Galaga\Pixel.hlsl(22,26-36): error X4502: invalid vs_2_0 output semantic 'SV_TARGET'
+  
+  compilation failed; no code produced
